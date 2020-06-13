@@ -544,4 +544,11 @@
 
     <!-- Whether to cancel fingerprint operation if not idle -->
     <bool name="config_fpCancelIfNotIdle">true</bool>
+
+    <!-- FPSInfoService Fps file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
+
+    <!-- Whether to artificially interpret all signal strengths as one bar higher than they actually are -->
+    <bool name="config_inflateSignalStrength">true</bool>
+
 </resources>
