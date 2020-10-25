@@ -625,7 +625,7 @@
             1 - Supported, but only on/off mode
             2 - Supported with variable brightness control
     -->
-    <integer name="config_deviceSupportsButtonBrightnessControl">1</integer>
+    <integer name="config_deviceSupportsButtonBrightnessControl">2</integer>
 
 <!-- All the capabilities of the LEDs on this device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -677,5 +677,13 @@
 <!-- Whether device needs to wait for Qualcomm MPCTL service to start
          before setting power profiles on boot. -->
     <bool name="config_waitForMpctlOnBoot">true</bool>
+
+    <!-- List supported color modes. -->
+    <integer-array name="config_availableColorModes">
+        <item>0</item> <!-- COLOR_MODE_NATURAL -->
+        <item>1</item> <!-- COLOR_MODE_BOOSTED -->
+        <item>2</item> <!-- COLOR_MODE_SATURATED -->
+        <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
+    </integer-array>
 
 </resources>
