@@ -405,6 +405,11 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-service \
     thermal.msm8953
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic

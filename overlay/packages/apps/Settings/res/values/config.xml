@@ -27,4 +27,7 @@
   <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
   <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
 
+ <!-- About SparkOS -->
+    <string name="spark_maintainer">Sahil</string>
+
 </resources>

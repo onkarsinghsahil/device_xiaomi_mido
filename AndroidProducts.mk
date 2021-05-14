@@ -14,10 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_mido.mk
+    $(LOCAL_DIR)/spark_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_mido-user \
-    arrow_mido-userdebug \
-    arrow_mido-eng
+    spark_mido-user \
+    spark_mido-userdebug \
+    spark_mido-eng
 
