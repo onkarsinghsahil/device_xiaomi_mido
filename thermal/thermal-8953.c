@@ -51,7 +51,7 @@ static char *misc_sensors_8953[] =
     "xo-therm-adc"
     "tsens_tz_sensor15",
     "battery",
-    "xo_therm"
+    "xo-therm-adc"
 };
 
 static struct target_therm_cfg sensor_cfg_8953[] = {
