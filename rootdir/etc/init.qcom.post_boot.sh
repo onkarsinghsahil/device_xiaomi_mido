@@ -5774,3 +5774,23 @@ esac
 misc_link=$(ls -l /dev/block/bootdevice/by-name/misc)
 real_path=${misc_link##*>}
 setprop persist.vendor.mmi.misc_dev_path $real_path
+
+# Check panel_name
+panel_model=`cat /sys/class/graphics/fb0/msm_fb_panel_info | grep panel_name`
+default_color = `getprop vendor.display.enable_default_color_mode`
+
+if [ "$panel_model" == "panel_name=nt35596 tianma fhd video mode dsi panel" ]; then
+
+        if ["$default_color" == "1"]; then
+        setprop vendor.display.enable_default_color_mode 0
+    fi
+
+    echo "1" > /sys/devices/platform/kcal_ctrl.0/kcal_enable
+        echo "237 237 256" > /sys/devices/platform/kcal_ctrl.0/kcal
+        echo "258" > /sys/devices/platform/kcal_ctrl.0/kcal_sat
+fi
+
+# Workaround for TWRP splash stuck issue with android12
+   rm -rf data/system/storage.xml
+   touch data/system/storage.xml
+   chattr +I data/system/storage.xml
