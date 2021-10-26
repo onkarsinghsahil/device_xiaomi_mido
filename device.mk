@@ -220,7 +220,11 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    libcurl
+    libcurl \
+    libavservices_minijail \
+    libavservices_minijail.vendor \
+    android.hardware.gnss@2.1.vendor \
+    android.hardware.gnss@2.0.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf
