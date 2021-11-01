@@ -21,20 +21,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common Radiant stuff.
-$(call inherit-product, vendor/radiant/config/common_full_phone.mk)
+# Inherit some common Arcane stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := radiant_mido
+PRODUCT_NAME := aosp_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
-#Project Radiant
-TARGET_BOOT_ANIMATION_RES := 720
-RADIANT_BUILD_TYPE := UNOFFICIAL
+
+#Arcane Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+ARCANE_DEVICE := Mido
+ARCANE_MAINTAINER := Silent Killer
+ARCANE_GAPPD := true
+TARGET_SUPPORTS_BLUR := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
