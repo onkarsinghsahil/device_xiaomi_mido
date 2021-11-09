@@ -350,7 +350,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.insmod.sh
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
@@ -367,8 +368,12 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0 \
-    android.hardware.secure_element@1.0.vendor\
+    android.hardware.secure_element@1.2 \
+    android.hardware.secure_element@1.2.vendor \
+    extphonelib \
+    extphonelib.xml \
+    extphonelib-product \
+    extphonelib_product.xml \
     librmnetctl \
     libcnefeatureconfig \
     libxml2 \
