@@ -988,7 +988,6 @@ system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a585
 vendor/lib64/hw/keystore.msm8953.so|0a68ac29004f72237f48008cea188dd98d6c6560
 
 # Listen - from LA.UM.9.6.2.r1-04200-89xx.0
-vendor/lib/hw/sound_trigger.primary.msm8953.so|55f8b7ebf9b30ef84341081dcdd5289dc70ceaa6
 vendor/lib/libadpcmdec.so|7a38d6b28b27cf663681ad077614a03164418f91
 vendor/lib/libcapiv2svacnn.so|927d89e3c65bd6b1d1028e1dc7318d98e288f510
 vendor/lib/libcapiv2vop.so|1515e1e4d37c01e1c8d3b819add1b5ca71d22f43
@@ -1167,7 +1166,6 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9
 
 # Radio (IMS) - from LA.UM.9.6.3.r1-04400-89xx.0
 -system_ext/app/imssettings/imssettings.apk|8b47c43d56228dcce93cc8c07c6ceb08cb3d2fe5
--system_ext/app/uceShimService/uceShimService.apk|e7222c1d9c4fa93418d692a97ee36562e4e1cc94
 vendor/bin/imsdatadaemon|476fb2c270ca3352ee41ca3dc8c49b86517830a5
 vendor/bin/imsqmidaemon|44b0d218106ce8124ca6c2cc956c26f7119645ca
 vendor/bin/imsrcsd|bf29aac14856f29268c01599e5f6c7c6ae520685
