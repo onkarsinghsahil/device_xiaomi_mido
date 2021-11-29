@@ -140,6 +140,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor:64 \
     vendor.qti.hardware.btconfigstore@2.0.vendor:64
+    vendor.qti.hardware.btconfigstore@2.0.vendor:64 \
+    android.hardware.bluetooth@1.0 \
+    android.hardware.bluetooth@1.0.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -189,6 +192,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
     android.hardware.drm@1.0-service-lazy \
+    android.hardware.drm@1.1 \
+    android.hardware.drm@1.1.vendor \
     android.hardware.drm@1.3-service.clearkey
 
 # Fingerprint
