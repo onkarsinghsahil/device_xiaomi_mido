@@ -309,6 +309,11 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libnbaio
 
+# NET
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1 \
+    android.system.net.netd@1.1.vendor
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
