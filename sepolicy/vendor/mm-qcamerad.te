@@ -1,4 +1,4 @@
-typeattribute mm-qcamerad binder_in_vendor_violators;
+#typeattribute mm-qcamerad binder_in_vendor_violators;
 binder_use(mm-qcamerad);
 
 allow mm-qcamerad sensorservice_service:service_manager find;
@@ -6,6 +6,8 @@ allow mm-qcamerad sensorservice_service:service_manager find;
 allow mm-qcamerad system_server:unix_stream_socket { read write };
 
 allow mm-qcamerad diag_device:chr_file { ioctl open read write };
-
-allow mm-qcamerad camera_prop:file { read };
+get_prop(mm-qcamerad, camera_prop)
 allow mm-qcamerad property_socket:sock_file { write };
+allow mm-qcamerad init:unix_stream_socket connectto;
+set_prop(mm-qcamerad, camera_prop)
+get_prop(mm-qcamerad, default_prop)
