@@ -399,6 +399,10 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml \
     telephony-ext
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio@1.6.vendor \
+
+
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
