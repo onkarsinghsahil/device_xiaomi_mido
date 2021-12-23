@@ -93,7 +93,9 @@ PRODUCT_PACKAGES += \
 #Secure element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
-    android.hardware.secure_element@1.0.vendor
+    android.hardware.secure_element@1.0.vendor \
+    android.hardware.secure_element@1.1 \
+    android.hardware.secure_element@1.1.vendor
 
 # Neutral Networks
 PRODUCT_PACKAGES += \
@@ -195,9 +197,9 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libtinyxml \
     libvulkan \
-    vendor.display.config@1.0.vendor
+    vendor.display.config@1.0.vendor \
     android.hardware.graphics.allocator@3.0-impl \
-    android.hardware.graphics.allocator@4.0-impl \
+    android.hardware.graphics.allocator@4.0-impl 
 
 
 # Device-specific settings
@@ -208,8 +210,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
     android.hardware.drm@1.0-service-lazy \
-    android.hardware.drm@1.3-service.clearkey
-    android.hardware.drm@1.3.vendor \
+    android.hardware.drm@1.3-service.clearkey \
+    android.hardware.drm@1.3.vendor 
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -344,7 +346,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
     android.hardware.power.stats@1.0-service.mock \
     vendor.qti.hardware.perf@2.0.vendor \
-    vendor.qti.hardware.perf@2.1.vendor
+    vendor.qti.hardware.perf@2.1.vendor \
     android.hardware.power@1.2.vendor
 
 
@@ -398,11 +400,9 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
-    telephony-ext
+    telephony-ext \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio@1.6.vendor \
-
-
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
