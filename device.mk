@@ -24,6 +24,9 @@ TARGET_BOARD_SUFFIX := _64
 # Apex
 PRODUCT_COMPRESSED_APEX := false
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
