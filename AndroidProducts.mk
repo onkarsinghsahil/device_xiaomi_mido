@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_mido.mk
+    $(LOCAL_DIR)/aosp_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_mido-user \
-    superior_mido-userdebug \
-    superior_mido-eng
+    aosp_mido-user \
+    aosp_mido-userdebug \
+    aosp_mido-eng
