@@ -41,6 +41,8 @@ PRODUCT_SOONG_NAMESPACES += \
 QCOM_SOONG_NAMESPACE := \
     $(LOCAL_PATH)/qcom-caf
 
+RELAX_USES_LIBRARY_CHECK := true
+
 # Bluetooth 
 PRODUCT_PACKAGES += \
 	android.hardware.bluetooth@1.0.vendor \
