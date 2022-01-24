@@ -21,3 +21,5 @@ allow init sysfs_leds:lnk_file read;
 
 # Allow init to chown/chmod on pseudo files in /sys
 allow init sysfs_type:file { setattr };
+
+allow init dirac_prop:file { read  relabelto  write };
