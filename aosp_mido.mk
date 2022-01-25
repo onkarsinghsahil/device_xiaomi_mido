@@ -21,8 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/common.mk)
+
+WITH_GAPPS := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
