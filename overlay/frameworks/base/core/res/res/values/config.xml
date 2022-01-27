@@ -641,4 +641,10 @@
     -->
     <integer name="config_deviceSupportsButtonBrightnessControl">1</integer>
 
+    <!-- Device configuration indicating whether we should avoid using accelerated graphics
+         in certain places to reduce RAM footprint. This is better then using "low_ram" flags.
+	 It can allow you to tune down your device's memory use without going to the point of 
+	 causing applications to turn off features. -->
+    <bool name="config_avoidGfxAccel">true</bool>
+
 </resources>
