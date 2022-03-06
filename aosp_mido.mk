@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common aosp stuff.
+# Inherit some common Project-Elixir  stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Boot Animation
@@ -35,6 +35,14 @@ PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
+
+#Project Elixir Official 
+Elixir_MAINTAINER := Vastolorde
+IS_PHONE := true
+CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
