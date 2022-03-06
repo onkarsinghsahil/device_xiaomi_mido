@@ -686,4 +686,19 @@
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
 
+<!-- Boost the brightness on a triple press of the power button -->
+<integer name="config_triplePressOnPowerBehavior">2</integer>
+
+<!-- Give wellbeing trust permissions -->
+<string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
+
+<!-- Control the behavior when the user long presses the home button. 0 = nothing. 1 = Recent apps view in SystemUI. 2 =Launch assist intent -->
+<integer name="config_longPressOnHomeBehavior">2</integer>
+
+<!--  Improve signal reception -->
+<bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+<!-- Support both wifi frequencies -->
+<bool translatable="false" name="config_wifi_dual_band_support">true</bool>
+
 </resources>
