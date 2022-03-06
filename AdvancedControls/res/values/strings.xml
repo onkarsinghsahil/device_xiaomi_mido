@@ -16,14 +16,11 @@
 <resources>
     <string name="app_name">AdvancedControls</string>
     <string name="advanced_settings">AdvancedControls</string>
-<!-- <string name="category_vibrator">Vibrator</string>
-    <string name="vib_strength_title_head">Strength</string>
-    <string name="vib_strength_summary_head">Define the strength of the vibrator</string> -->
     <string name="category_torch">Torch</string>
-    <string name="yellow_torch_brightness_title_head">Yellow led maximum brightness</string>
-    <string name="yellow_torch_brightness_summary_head">Define the maximum brightness of the yellow led</string>
-    <string name="white_torch_brightness_title_head">White led maximum brightness</string>
-    <string name="white_torch_brightness_summary_head">Define the maximum brightness of the white led</string>
+    <string name="yellow_torch_brightness_title_head">Yellow LED</string>
+    <string name="yellow_torch_brightness_summary_head">Control the brightness of the Yellow LED</string>
+    <string name="white_torch_brightness_title_head">White LED</string>
+    <string name="white_torch_brightness_summary_head">Control thebrightness of the White LED</string>
     <string name="category_screen_color">Screen Color</string>
     <string name="rgb_red">Red</string>
     <string name="rgb_blue">Blue</string>
@@ -39,6 +36,6 @@
     <string name="restore_default">Default</string>
     <string name="restore_on_boot">Restore settings across app close/boot</string>
     <string name="category_kcal_presets">Kcal Presets</string>
-    <string name="kcal_presets_title">Use kcal preset values</string>
-    <string name="presets_list_title">Choose kcal preset</string>
+    <string name="kcal_presets_title">KCAL preset values</string>
+    <string name="presets_list_title">Choose KCAL presets</string>
 </resources>
