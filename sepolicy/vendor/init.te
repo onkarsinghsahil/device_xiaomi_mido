@@ -1,5 +1,7 @@
 allow init wcnss_device:chr_file write;
 
+allow init proc:file { write };
+
 # Allow init to bind mount gps_debug.conf
 allow init system_file:file mounton;
 
