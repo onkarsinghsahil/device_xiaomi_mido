@@ -5,3 +5,5 @@ allow platform_app sysfs_fps:file { getattr open read };
 
 allow platform_app vendor_default_prop:file { getattr  open };
 allow platform_app default_prop:property_service { set };
+#hw_server
+allow platform_app default_android_hwservice:hwservice_manager { find }
