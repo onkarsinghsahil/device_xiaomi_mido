@@ -9,4 +9,4 @@ allow platform_app default_prop:property_service { set };
 allow poweroffalarm_app cgroup:file { { getattr open read ioctl lock map watch watch_reads } { open append write lock map } };
 
 # HW_Service
-allow platform_app default_android_hwservice:hwservice_manager { find }
+allow platform_app default_android_hwservice:hwservice_manager { find };
