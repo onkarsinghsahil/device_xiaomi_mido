@@ -1,1 +1,2 @@
-allow poweroffalarm_app cgroup:file rw_file_perms;
+# allow poweroffalarm_app cgroup:file rw_file_perms;
+allow poweroffalarm_app cgroup:file { { getattr open read ioctl lock map watch watch_reads } { open append write lock map } };
