@@ -30,6 +30,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 #Gapps
 BUILD_WITH_GAPPS := true
 
+#call recording
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := pixys_mido
