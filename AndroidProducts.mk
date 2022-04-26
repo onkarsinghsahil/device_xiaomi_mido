@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_mido.mk
+    $(LOCAL_DIR)/streak_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_mido-user \
-    pixys_mido-userdebug \
-    pixys_mido-eng
+    streak_mido-user \
+    streak_mido-userdebug \
+    streak_mido-eng
