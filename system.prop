@@ -185,3 +185,9 @@ ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.min.fling_velocity=160 \
 ro.max.fling_velocity=20000
+
+# Spark-OS
+ro.spark.device.name=Redmi Note 4
+ro.spark.group.url=https://t.me/sahilsdiscussion
+ro.spark.maintainer=Sahil
+ro.spark.maintainer.username=onkarsinghsahil
