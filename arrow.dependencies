@@ -1,0 +1,6 @@
+[
+ {
+   "repository": "android_kernel_xiaomi_mido",
+   "target_path": "kernel/xiaomi/mido"
+ }
+]
